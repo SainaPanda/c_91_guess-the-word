@@ -15,7 +15,7 @@ document.getElementById("player_answer").innerHTML = "Answer Turn - " + player2_
 
 function send()
 {
-    document.getElementById("word").value;
+    get_word = document.getElementById("word").value;
     word = get_word.toLowerCase();
     console.log("word in lowerCase = " + word);
 
